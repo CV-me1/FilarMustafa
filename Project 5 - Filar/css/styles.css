@@ -1,0 +1,278 @@
+/* 16px = 100% = 1em
+rem we use it when we want to ignore the parent effect for size */
+
+/* nav body da color bkar bine bo gorina renge hemi texta */
+body{
+  text-align: center;
+  margin: 0 0 0 0;
+  font-family: 'Merriweather', serif;
+}
+.stu{
+  text-decoration: underline;
+  font-weight: bold;
+}
+.top{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 200px;
+}
+
+h1{
+
+  color: #0f4c75;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-bottom: 30px;
+  margin-right: auto;
+  font-family: 'Sacramento', cursive;
+ font-size: 562%
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+
+  text-transform: uppercase;
+  color: #0f4c75;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #0f4c75;
+}
+.cloud2{
+  position: absolute;
+  bottom: 520px;
+  left:220px;
+}
+.cloud{
+  position: absolute;
+  right: 380px;
+  top: 150px;
+}
+.cloud3{
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+.cloud4{
+  position: absolute;
+  bottom: 400px;
+  right: 320px;
+}
+.cloud5{
+  position: absolute;
+  bottom: 250px;
+  left: 750px;
+}
+.cloud6{
+  position: absolute;
+  left: 350px;
+  top: 120px;
+}
+.cloud7{
+  position: absolute;
+  bottom: 600px;
+  right:600px;
+}
+.Yas{
+  border-radius: 50%;
+  width: 15%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.XYZ{
+  width: 23%;
+
+  margin-bottom: 40px;
+  float: left;
+
+}
+.time{
+  width: 20%;
+float: right;
+margin: auto  auto auto 40px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #3F72AF;
+  border-width: 4.4px;
+  height: 0px;
+  width: 4%;
+  margin: 50px auto;
+}
+/* margin: Top Right Bottom Left */
+/* clear: right; weki te dvet ch tsht deste raste ye texte te nebit  */
+
+.p {
+  color: #40514E;
+  margin: 50px auto 50px auto;
+  font-size: 122%
+}
+.skill-row {
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.interested {
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.hi{
+  width: 23%;
+
+  margin-bottom: 40px;
+  float: left;
+
+}
+.table{
+  font-size: 23px;
+  color: #0f4c75;
+
+}
+.table2{
+  font-size: 18px;
+  color: #0f4c75;
+
+}
+.la{
+  width: 23%;
+
+  margin-bottom: 40px;
+  float: left;
+}
+.las{
+  width: 23%;
+
+  margin-bottom: 40px;
+  float: right;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+.pa {
+  color: #EAF6F6;
+}
+.btn {
+  position: relative;
+  background-color: #66BFBF;
+  border-radius: 10px;
+
+}
+.btn {
+  background: #11c4;
+  background-image: -webkit-linear-gradient(top, #11c4, #11999e);
+  background-image: -moz-linear-gradient(top, #11c4, #11999e);
+  background-image: -ms-linear-gradient(top, #11c4, #11999e);
+  background-image: -o-linear-gradient(top, #11c4, #11999e);
+  background-image: linear-gradient(to bottom, #11c4, #11999e);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3eb;
+  background-image: -webkit-linear-gradient(top, #30e3eb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3eb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3eb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3eb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3eb, #2bc4ad);
+  text-decoration: none;
+}
+.facebook {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #4ea3a3);
+  background-image: -moz-linear-gradient(top, #66BFBF, #4ea3a3);
+  background-image: -ms-linear-gradient(top, #66BFBF, #4ea3a3);
+  background-image: -o-linear-gradient(top, #66BFBF, #4ea3a3);
+  background-image: linear-gradient(to bottom, #66BFBF, #4ea3a3);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+
+.facebook:hover {
+  background: #0000ff;
+  background-image: -webkit-linear-gradient(top, #0000ff, #1100ff);
+  background-image: -moz-linear-gradient(top, #0000ff, #1100ff);
+  background-image: -ms-linear-gradient(top, #0000ff, #1100ff);
+  background-image: -o-linear-gradient(top, #0000ff, #1100ff);
+  background-image: linear-gradient(to bottom, #0000ff, #1100ff);
+  text-decoration: none;
+}
+.Twitter{
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #4ea3a3);
+  background-image: -moz-linear-gradient(top, #66BFBF, #4ea3a3);
+  background-image: -ms-linear-gradient(top, #66BFBF, #4ea3a3);
+  background-image: -o-linear-gradient(top, #66BFBF, #4ea3a3);
+  background-image: linear-gradient(to bottom, #66BFBF, #4ea3a3);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+
+.Twitter:hover {
+  background: #00e1ff;
+  background-image: -webkit-linear-gradient(top, #00e1ff, #00e1ff);
+  background-image: -moz-linear-gradient(top, #00e1ff, #00e1ff);
+  background-image: -ms-linear-gradient(top, #00e1ff, #00e1ff);
+  background-image: -o-linear-gradient(top, #00e1ff, #00e1ff);
+  background-image: linear-gradient(to bottom, #00e1ff, #00e1ff);
+  text-decoration: none;
+}
+.Instagram {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #4ea3a3);
+  background-image: -moz-linear-gradient(top, #66BFBF, #4ea3a3);
+  background-image: -ms-linear-gradient(top, #66BFBF, #4ea3a3);
+  background-image: -o-linear-gradient(top, #66BFBF, #4ea3a3);
+  background-image: linear-gradient(to bottom, #66BFBF, #4ea3a3);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.Instagram:hover {
+  background: #2C6A93;
+  background-image: -webkit-linear-gradient(top, #2C6A93, #ff0099);
+  background-image: -moz-linear-gradient(top, #2C6A93, #ff0099);
+  background-image: -ms-linear-gradient(top, #2C6A93, #ff0099);
+  background-image: -o-linear-gradient(top, #2C6A93, #ff0099);
+  background-image: linear-gradient(to bottom, #2C6A93, #ff0099);
+  text-decoration: none;
+}
+.a{
+
+}
+/* display: inline;  to change block elements to inline elementes and the best way to use it display: inline-block */
